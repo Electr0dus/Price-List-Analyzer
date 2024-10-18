@@ -91,7 +91,6 @@ class PriceMachine():
             result += f'<td>{weight}</td>'
             result += f'<td>{file_name}</td>'
             result += f'<td>{price_for_kilo}</td>'
-            # result += '<br>'
         with open(fname, mode='w') as file_html:
             file_html.write(result)
 
