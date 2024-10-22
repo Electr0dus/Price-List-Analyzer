@@ -16,4 +16,4 @@
 <div>7     кальмар тушка                             4756    4  price_0.csv  1189.0</div>
 
 <div>Пример работы:</div>
-![image](https://github.com/user-attachments/assets/eef59a56-665b-4ab5-8b38-5d3b22eecab0](https://github.com/Electr0dus/Price-List-Analyzer/blob/main/example.png)
+<image src='https://github.com/Electr0dus/Price-List-Analyzer/blob/main/example.png'>
