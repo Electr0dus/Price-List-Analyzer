@@ -1,6 +1,7 @@
+import csv
 import operator
 import os
-import csv
+
 
 class PriceMachine():
     __name_product: list = ['название', 'продукт', 'товар', 'наименование']
@@ -104,7 +105,7 @@ class PriceMachine():
         data_request = sorted(data_request, key=operator.itemgetter(5))
         # Вывод данных в консоль внеобходимой форме
         print(f'{"№":<3} {"Наименование":<45}{"цена":<8}{"вес":<5}{"файл":<15}{"цена за кг.":<10}')
-        count_product = 1  #Для вывода значения количества продукта по порядку
+        count_product = 1  # Для вывода значения количества продукта по порядку
         for product in data_request:
             print(f'{count_product:<3} {product[1]:<45}{product[2]:<8}{product[3]:<5}{product[4]:<15}{product[5]:<10}')
             count_product += 1
